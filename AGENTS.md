@@ -1,3 +1,4 @@
+successfully downloaded text file (SHA: 265b3a899e62126bfcd91b187cfa283517992a9d)
 # AGENTIC DIRECTIVE
 
 > This file is identical to CLAUDE.md. Keep them in sync.
@@ -51,3 +52,9 @@
 ## TOOLS
 
 - Prefer built-in tools (grep, read_file, etc.) over manual workflows. Check tool availability before use.
+
+## MODEL CLASSIFICATIONS
+
+- A central file `model_classifications.md` tracks free models from NVIDIA NIM, OpenRouter, and DeepSeek grouped into Opus/Sonnet/Haiku tiers, ordered from most to least capable within each tier.
+- When adding or updating providers, use the classifications in `model_classifications.md` to choose sensible per-tier defaults and fallbacks.
+- Keep `model_classifications.md` up to date when providers change or new strong free models appear.
